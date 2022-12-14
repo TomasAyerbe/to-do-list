@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="icon" type="image/png" href="img/icon-01.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="container" class="flex flex-col justify-start items-center h-screen overflow-y-auto bg-slate-300">
+        <h1 class="my-10 text-8xl sm:text-9xl text-center text-slate-700">To Do List</h1>
+        <div class="max-w-full flex justify-center items-center">
+            <input type="text" id="to-do-input" class="min-w-0 w-64 sm:w-96 m-2 h-16 p-4 bg-inherit border-2 rounded-sm border-solid border-slate-700 text-2xl text-slate-700 focus:outline-none shadow focus:shadow-lg hover:shadow-lg duration-500" placeholder="Insert a to do item" autocomplete="off">
+            <button id="add-button" class="w-28 sm:w-32 mx-2 sm:mx-4 h-16 p-2 border-2 rounded-sm border-solid border-slate-700 text-2xl text-slate-700 focus:outline-none shadow hover:shadow-lg duration-500">Add</button>
+        </div>
+    </div>
+</body>
+</html>
